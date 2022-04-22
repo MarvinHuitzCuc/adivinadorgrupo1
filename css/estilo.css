@@ -1,0 +1,120 @@
+body {
+	
+	padding-top: 3em;
+    max-width: 40em;
+	margin: auto;
+    font-family: sans-serif;
+	text-align: center;
+	background-image: url("fondo.jpg");
+}
+
+
+header {
+    line-height: 50px;
+    color: white;
+	text-align: center;
+}
+
+.contenedorPregunta{
+	background-color: none;
+	color: white;
+	padding-top: 1em;
+	padding-bottom: 3em;
+}
+
+h2 {
+	color: white;
+  }
+
+textarea{
+	font-size: 1.5em;
+	width:100%;
+}
+
+button{
+	margin-top:1em;
+	font-size: 2em;
+	width:100%;
+}
+
+.contenedorRespuestas{
+}
+
+.boton{
+	width: 45%;
+	height:45px;
+	
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;       
+	
+	
+	float:left;
+	
+	text-decoration: none;
+}
+
+.botonSI{
+	width: 45%;
+	height:45px;
+	
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;       
+	
+	background-color: rgb(255, 255, 255);
+	border: 1px solid green;
+	float:left;
+	
+	text-decoration: none;
+}
+
+.botonNO{
+	width: 45%;
+	height:45px;
+	
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;       
+	
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(136, 2, 2);
+	float:left;
+	
+	text-decoration: none;
+}
+
+
+
+.boton:hover{
+	background-color: #666666;
+	color: #FFFFFF;
+	
+}
+
+.botonSI:hover{
+	background-color: #038d41;
+	color: #FFFFFF;
+	
+}
+
+.botonNO:hover{
+	background-color: #910000;
+	color: #FFFFFF;
+	
+}
+
+.limpiar{
+	clear: both;
+}
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 50px;
+	color:white;
+}
+
